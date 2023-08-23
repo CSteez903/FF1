@@ -1,0 +1,42 @@
+version: "3.7"
+
+services:
+  gamedaybot:
+    build:
+      context: .
+    restart: always
+    environment:
+      #This is your Webhook URL from the Discord Settings page (REQUIRED)
+      DISCORD_WEBHOOK_URL: "https://discord.com/api/webhooks/1143894534913278133/WWgb6iBfXmczVxWQPP8EKl8B0tNPPRYHJMyoF2lN2BUX_VNfanPhUgTWJEfnA18KCArl"
+      #ESPN league id (REQUIRED)
+      LEAGUE_ID: "432348805" 
+      # #When the bot will start paying attention and sending messages to your chat.
+      # START_DATE:"2023-08-23"
+      # #When the bot will stop paying attention and stop sending messages to your chat.
+      # END_DATE:"2024-03-23"
+      # #ESPN League year
+      LEAGUE_YEAR: "2023"
+      # #Required for private leagues. See Private Leagues Section for documentation
+      ESPN_S2: "AECsQpN5gu8Ci8ghQUYmIgiOna3weGOvj8qipCH2liDamkEfQp"
+      SWID: "{27DF1621-F63A-4CD6-924F-9B984EA68051}"
+      # #The timezone that the messages will look to send in. (America/New_York by default)
+      # TIMEZONE:"America/Chicago"
+      # #The message that the bot will say when it is started (leave blank for no message)
+      # INIT_MSG:"What's Up Motherfuckers"
+      # #If set to True, when standings are posted on Wednesday it will also include top half scoring wins
+      # TOP_HALF_SCORING:"TRUE"
+      # #If set to True, random phrases will appear after certain bot messages
+      # RANDOM_PHRASE:"TRUE"
+      # #If set to True, when extra trophies will be included when final score update runs
+      # EXTRA_TROPHIES: "TRUE"
+      # #If set to True, will move updates accordingly for a COVID delayed game to Tuesday
+      # TUES_SCHED:
+      # #Assign a score value for the Heads Up report to warn users about (default is 0)
+      # SCORE_WARNING:
+      # #If set to True, will provide Free-Agent Acquisition Budget (FAAB) dollars to the waiver report
+      # FAAB: 
+      # #See User and Emote IDs section for documentation on these
+      # USERS: ""
+      # EMOTES: ""
+      # #Used for troubleshooting--set to 1 so bot will provide test output instead
+      # TEST: 0

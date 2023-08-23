@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gamedaybot/utils.py
+gamedaybot.egg-info/PKG-INFO
+gamedaybot.egg-info/SOURCES.txt
+gamedaybot.egg-info/dependency_links.txt
+gamedaybot.egg-info/requires.txt
+gamedaybot.egg-info/top_level.txt

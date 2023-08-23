@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gamedaybot
+Version: 0.3.0
+Summary: ESPN fantasy football Chat Bot
+Home-page: https://github.com/sdvgallardo/fantasy_football_chat_bot-vS
+Author: ['Dean Carlson', 'Sean Gallardo']
+Author-email: ['deantcarlson@gmail.com', 'sdvgallardo@gmail.com']
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
